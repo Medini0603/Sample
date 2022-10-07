@@ -1,0 +1,33 @@
+touch (command) -  touch filename
+git init(command)(creates a git file in our folder) -  git init
+username/email configuration -  git config --global user.name 'Medini'
+			         -   git config --global user.email 'medu0603@gmail.com'
+git add (command) -  git add filename
+git status(command) -  git status
+git rm - -cached(command) -  git rm --cached filename
+git add *.html (command) -   git add *.html (to add all html files of the folder into git)
+git add .(command) -   git add . (add all files of folder)
+git commit(command) -   git commit
+		opens vim terminal
+		press i (to insert)
+		uncomment initial commit
+		then prerss esc
+		then press :wq
+		ur files are committed
+
+git commit -m '   ' (command) -  git commit -m 'any comment of ur choice'
+.gitignore (documentation) - used to specify files that we dont want to add to our repository
+		touch .gitignore  (creates a new .gitignore file)
+		now write names of file that u dont want to add to git in that .gitignore file
+		now to exclude directory  write \name_of_the_directory  
+		now to exclude all .txt files type   *.txt   in gitignore file
+ 
+git branch(command) -   git branch name_of_the_branch
+git checkout(command) -   git checkout name_of_the_branch_to_be_switched
+git merge(command) -   git merge branch_name
+GitHub new repository - 
+git remote(command) - 
+git remote add origin(command) - 
+git push -u origin master(command) -  
+git clone(command) -    git clone link_of_rep_to_be_cloned(Copied from download of a repo)
+git pull(command) -   git pull (to go back to original folder)
